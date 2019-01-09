@@ -71,7 +71,7 @@ menu, nav, section {
     padding: 0;
 }
 body {
-    font: 12px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
+    font: 0.2rem 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
     background-color: #F7F7F7;
 }
 em, i {
@@ -81,12 +81,14 @@ ul{
   width: 100%!important;
   position: fixed;
   bottom: 0;
+  background: #ccc;
+  font-size: .25rem;
 }
 ul,li{
     list-style-type: none;
     float: left;
-    width: 30%;
-    line-height: 50px;
+    width: 33.333333%;
+    line-height: 0.5rem;
     text-align: center;
 }
 strong {
@@ -123,7 +125,6 @@ ul, ol {
     list-style: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
     font-family: 'Microsoft YaHei';
 }
 img {
